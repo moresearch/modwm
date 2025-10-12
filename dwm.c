@@ -2005,12 +2005,22 @@ updatesizehints(Client *c)
 	c->hintsvalid = 1;
 }
 
+/*
 void
 updatestatus(void)
 {
 	if (!gettextprop(root, XA_WM_NAME, stext, sizeof(stext)))
 		strcpy(stext, "dwm-"VERSION);
 	drawbar(selmon);
+}
+*/
+
+void
+updatestatus(void)
+{
+    if (!gettextprop(root, XA_WM_NAME, stext, sizeof(stext)))
+        stext[0] = '\0';
+    drawbar(selmon);
 }
 
 void

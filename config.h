@@ -5,14 +5,19 @@ static const unsigned int gappx = 10; /* gap pixel between windows */
 static const unsigned int borderpx  = 0;        /* border pixel of windows */
 //static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int snap      = 0;       /* snap pixel */
-static const int showbar            = 1;        /* 0 means no bar */
+static const int showbar            = 0;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 //static const char *fonts[]          = { "monospace:size=10" };
 //static const char dmenufont[]       = "monospace:size=10";
-static const char *fonts[]          = { "Terminus:size=9" };
+//static const char *fonts[]          = { "Terminus:size=9" };
 //static const char *fonts[]          = { "Iosevka:size=9" };
+static const char *fonts[] = { "Share Tech Mono:size=12:antialias=true:autohint=true", "monospace:size=10" };
 
-static const char dmenufont[]       = "Terminus:size=9";
+//static const char dmenufont[]       = "Terminus:size=9";
+static const char dmenufont[] = "Share Tech Mono:size=12:antialias=true:autohint=true";
+
+
+
 //static const char dmenufont[]       = "Iosevka:size=9";
 
 
